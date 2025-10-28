@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.77">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px '.AppleSystemUIFontMonospaced'; min-height: 16.0px}
+    span.s1 {color: #dca10d}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="EL Shekari"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt; This address will soon host EL Shekari's portfolio</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space"> </span>&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Font Face: GB Garamond --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@font-face {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'GBGaramond';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>src: url('GBGaramond.woff2') format('woff2'),</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>url('GBGaramond.woff') format('woff');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: normal;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-style: normal;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>/* REPLACE with local GB Garamond files in the same folder */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-color: #BFBFBF;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--overlay-opacity: 0.5;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>html, body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'GBGaramond', Garamond, "Times New Roman", serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #000;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: url('BG.jpg') center center / cover no-repeat fixed; /* REPLACE WITH BACKGROUND_IMAGE_URL */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.overlay {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: rgba(0,0,0,var(--overlay-opacity));</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(20px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeUp 1s ease forwards 0.5s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeUp {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>transform: translateY(0);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: clamp(36px, 6vw, 64px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.2;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: clamp(18px, 3vw, 24px);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.5;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-bar {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: fixed;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateX(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 10;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-bar a {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.2s, filter 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-bar a:hover, .social-bar a:focus {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: scale(1.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: brightness(1.5);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>outline: 2px solid var(--text-color);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>outline-offset: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>svg {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 32px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>fill: var(--text-color);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="hero" aria-label="Background image for El Shekari website" role="img"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="overlay"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1&gt;El Shekari's art portfolio (under preparation)&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Available for collaborations with artists. If our vision aligns, let’s talk. 🤓📹&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="social-bar"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- REPLACE INSTAGRAM_1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="<a href="https://www.instagram.com/elshekaari?igsh=cTNwNXNqMWZkd3d5"><span class="s1">https://www.instagram.com/elshekaari?igsh=cTNwNXNqMWZkd3d5</span></a>" target="_blank" rel="noopener noreferrer" aria-label="Main Instagram"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg viewBox="0 0 24 24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.07 5.775.127 4.604.378 3.635 1.348 2.665 2.318 2.414 3.489 2.357 4.766 2.3 6.046 2.288 6.455 2.288 12c0 5.545.012 5.954.07 7.234.057 1.277.308 2.448 1.278 3.418.97.97 2.141 1.221 3.418 1.278C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.277-.057 2.448-.308 3.418-1.278.97-.97 1.221-2.141 1.278-3.418.058-1.28.07-1.689.07-7.234 0-5.545-.012-5.954-.07-7.234-.057-1.277-.308-2.448-1.278-3.418C19.396.378 18.225.127 16.948.07 15.668.012 15.259 0 12 0z"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998z"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;circle cx="18.406" cy="5.594" r="1.44"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- REPLACE INSTAGRAM_2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="<a href="https://www.instagram.com/elshekaari?igsh=cTNwNXNqMWZkd3d5"><span class="s1">https://www.instagram.com/elshekaari?igsh=cTNwNXNqMWZkd3d5</span></a>" target="_blank" rel="noopener noreferrer" aria-label="Instagram video portfolio"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg viewBox="0 0 24 24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.31-3.608.975-.975 2.242-1.247 3.608-1.31C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.07 5.775.127 4.604.378 3.635 1.348 2.665 2.318 2.414 3.489 2.357 4.766 2.3 6.046 2.288 6.455 2.288 12c0 5.545.012 5.954.07 7.234.057 1.277.308 2.448 1.278 3.418.97.97 2.141 1.221 3.418 1.278C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.277-.057 2.448-.308 3.418-1.278.97-.97 1.221-2.141 1.278-3.418.058-1.28.07-1.689.07-7.234 0-5.545-.012-5.954-.07-7.234-.057-1.277-.308-2.448-1.278-3.418C19.396.378 18.225.127 16.948.07 15.668.012 15.259 0 12 0z"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998z"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;circle cx="18.406" cy="5.594" r="1.44"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- REPLACE YOUTUBE_URL --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="<a href="https://youtube.com/@elvideoarts?si=6xdkn0QzdKTZfIDS"><span class="s1">https://youtube.com/@elvideoarts?si=6xdkn0QzdKTZfIDS</span></a>" target="_blank" rel="noopener noreferrer" aria-label="YouTube"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg viewBox="0 0 24 24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M23.498 6.186a2.994 2.994 0 0 0-2.11-2.12C19.602 3.667 12 3.667 12 3.667s-7.602 0-9.388.399a2.994 2.994 0 0 0-2.11 2.12A31.937 31.937 0 0 0 0 12a31.937 31.937 0 0 0 .502 5.814 2.994 2.994 0 0 0 2.11 2.12C4.398 20.333 12 20.333 12 20.333s7.602 0 9.388-.399a2.994 2.994 0 0 0 2.11-2.12A31.937 31.937 0 0 0 24 12a31.937 31.937 0 0 0-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- optional: &lt;a href="mailto:elshekari@gmail.com"&gt;Email&lt;/a&gt; --&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Minimal JS included above via CSS animation; no extra JS needed</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Can add more interactivity if required</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
